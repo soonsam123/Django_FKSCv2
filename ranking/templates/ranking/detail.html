@@ -1,0 +1,244 @@
+{% extends 'inicial/base.html' %}
+{% block head %}{% load staticfiles %}{% endblock %}
+{% block body %}
+            <!--========== PROMO BLOCK ==========-->
+        <div class="s-promo-block-v3 g-bg-position--center g-fullheight--sm" style="background: url('{% static 'inicial/img/1920x1080/blackbelt.jpg' %}');">
+            <div class="container g-ver-center--sm g-padding-y-125--xs g-padding-y-0--sm">
+                <div class="g-margin-t-30--xs g-margin-t-0--sm g-margin-b-30--xs g-margin-b-70--md">
+                    <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-50--lg g-color--white">IX Copa da Paz<br>Mundial de Artes Marciais</h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-push-4 g-margin-b-50--xs g-margin-b-0--md">
+                        <div class="s-promo-block-v3__divider g-display-none--xs g-display-block--md"></div>
+                        <div class="row">
+                            <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
+                                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+                                    <p class="g-font-size-18--xs g-color--white-opacity">Venha participar ou assitir esse combate entre os melhores atletas do ano, um Campeonato Internacional na nossa região, Anápolis-GO, no Ginásio Internacional Newton de Faria.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 col-sm-offset-1">
+                                <div class="clearfix">
+                                    <div class="pull-left">
+                                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                                            <span class="s-promo-block-v3__date g-font-size-100--xs g-font-size-135--lg g-font-weight--300 g-color--primary">28/29</span>
+                                        </div>
+                                    </div>
+                                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <span class="s-promo-block-v3__month g-font-size-18--xs g-font-size-22--lg g-font-weight--300 g-color--white-opacity-light">Out</span>
+                                        <span class="s-promo-block-v3__year g-font-size-18--xs g-font-size-22--lg g-font-weight--300 g-color--white-opacity-light">2017</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-sm-pull-8">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
+                            <a class="js__popup__youtube" href="https://www.youtube.com/channel/UCY7WvojM2d1-4qNf_cO7Ezg" title="Videos da FKSC">
+                                <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
+                                <span class="text-uppercase g-font-size-13--xs g-color--white g-padding-x-15--xs">Assita o Trailer</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--========== END PROMO BLOCK ==========-->
+
+        <!--========== PAGE CONTENT ==========-->
+        <!-- Inicio do Ranking -->
+    <br><br>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h1>{{rank_campeonato.nome_campeonato}}</h1>
+                <h4>{{rank_campeonato.est_cidade}}</h4><br>
+                {% for categoria in rank_campeonato.categoria_set.all %}
+                <span class="glyphicon glyphicon-user">
+                    <button class="btn btn-primary">{{categoria.idade}}</button>
+                </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="glyphicon glyphicon-education">
+                    <button class="btn btn-warning">{{categoria.faixa}}</button>
+                </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="glyphicon glyphicon-adjust">
+                    <button class="btn btn-secondary">{{categoria.sexo}}</button>
+                </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="glyphicon glyphicon-globe">
+                    <button class="btn btn-info">{{categoria.modalidade}}</button>
+                </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <table class="table">
+                    <thead class="thead-inverse">
+                    <tr>
+                        <th>Colocação</th>
+                        <th>Nome</th>
+                        <th>Academia</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>{{categoria.primeiro}}</td>
+                        <td>{{categoria.acad_primeiro}}</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>{{categoria.segundo}}</td>
+                        <td>{{categoria.acad_segundo}}</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>{{categoria.terceiro}}</td>
+                        <td>{{categoria.acad_terceiro}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+        <!-- Final do Ranking -->
+
+    <!-- Features -->
+   <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--sm">
+            <div class="row g-margin-b-60--xs g-margin-b-70--md">
+                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+                    <div class="clearfix">
+                        <div class="g-media g-width-30--xs">
+                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".1s">
+                                <a href="{% url 'filiados:academias' %}"> <i class="g-font-size-28--xs g-color--primary ti-home"></i></a>
+                            </div>
+                        </div>
+                        <div class="g-media__body g-padding-x-20--xs">
+                            <a href="{% url 'filiados:academias' %}"> <h3 class="g-font-size-18--xs">Academias Filiadas 2017</h3></a>
+                            <p class="g-margin-b-0--xs">Essa é a lista das Academias que são nossas afiliadas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+                    <div class="clearfix">
+                        <div class="g-media g-width-30--xs">
+                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".2s">
+                                <a href="{% url 'filiados:atletas' %}"> <i class="g-font-size-28--xs g-color--primary ti-agenda"></i></a>
+                            </div>
+                        </div>
+                        <div class="g-media__body g-padding-x-20--xs">
+                            <a href="{% url 'filiados:atletas' %}"><h3 class="g-font-size-18--xs">Atletas Filiados 2017</h3></a>
+                            <p class="g-margin-b-0--xs">Essa é a lista dos Atletas que são nossos afiliados.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="clearfix">
+                        <div class="g-media g-width-30--xs">
+                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".3s">
+                                <a href="{% url 'filiados:pretas' %}"> <i class="g-font-size-28--xs g-color--primary ti-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="g-media__body g-padding-x-20--xs">
+                            <a href="{% url 'filiados:pretas' %}"><h3 class="g-font-size-18--xs">Faixas Pretas</h3></a>
+                            <p class="g-margin-b-0--xs">Essa é a lista do registro de todos Faixas Pretas desde 1996.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- // end row  -->
+            <div class="row">
+                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+                    <div class="clearfix">
+                        <div class="g-media g-width-30--xs">
+                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".4s">
+                                <a href="{% url 'campeonatos:index' %}"> <i class="g-font-size-28--xs g-color--primary ti-medall"></i></a>
+                            </div>
+                        </div>
+                        <div class="g-media__body g-padding-x-20--xs">
+                            <a href="{% url 'campeonatos:index' %}"><h3 class="g-font-size-18--xs">Circuito Competitivo 2017</h3></a>
+                            <p class="g-margin-b-0--xs">Essa é a lista de todos os nossos Campeonatos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+                    <div class="clearfix">
+                        <div class="g-media g-width-30--xs">
+                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".5s">
+                                <a href="{% url 'ranking:index' %}"> <i class="g-font-size-28--xs g-color--primary ti-star"></i></a>
+                            </div>
+                        </div>
+                        <div class="g-media__body g-padding-x-20--xs">
+                            <a href="{% url 'ranking:index' %}"><h3 class="g-font-size-18--xs">Ranking 2017</h3></a>
+                            <p class="g-margin-b-0--xs">Aqui está o Ranking de cada Campeonato, o Ranking Geral e o Ranking das Academias.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="clearfix">
+                        <div class="g-media g-width-30--xs">
+                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".6s">
+                                <a href="{% url 'videos:index' %}"> <i class="g-font-size-28--xs g-color--primary ti-video-camera"></i></a>
+                            </div>
+                        </div>
+                        <div class="g-media__body g-padding-x-20--xs">
+                            <a href="{% url 'videos:index' %}"><h3 class="g-font-size-18--xs">Vídeos</h3></a>
+                            <p class="g-margin-b-0--xs">Aqui você encontrará vídeos de Kumitê, Kata, Kobudô, Artes Marciais e muito mais.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- // end row  -->
+        </div>
+        <!-- End Features -->
+
+
+        <!-- Parceiros -->
+        <div class="g-padding-y-80--xs g-padding-y-125--sm">
+            <div class="g-container--sm">
+                <div class="g-text-center--xs g-margin-b-80--xs">
+                    <h2 class="g-font-size-32--xs g-font-size-36--sm">Parceiros - Federações que somos Filiados</h2>
+                    <p class="g-font-size-18--md">Agradecemos as Federações que somos Filiados Nacionalmente e Internacionalmente. Aos Parceiros e as Prefeituras que fazem o campeonato possível.</p>
+                </div>
+            </div>
+            <div class="g-container--md">
+                <!-- Swiper Clients -->
+                <div class="s-swiper js__swiper-clients">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="s-clients-v1" src="{% static 'inicial/img/clients/cbksc1.png' %}" alt="Logo Parceiros">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".2s">
+                                <img class="s-clients-v1" src="{% static 'inicial/img/clients/skif.png' %}" alt="Logo Parceiros">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
+                                <img class="s-clients-v1" src="{% static 'inicial/img/clients/wtmf.png' %}" alt="Logo Parceiros">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".4s">
+                                <img class="s-clients-v1" src="{% static 'inicial/img/clients/mafwp.png' %}" alt="Logo Parceiros">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".5s">
+                                <img class="s-clients-v1" src="{% static 'inicial/img/clients/wpmaf.png' %}" alt="Logo Parceiros">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Swiper Clients -->
+            </div>
+        </div>
+        <!-- End Clients -->
+
+    <!-- Google Map -->
+    <div id="map">
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:500px;width:1400px;'><div id='gmap_canvas' style='height:800px;width:1400px;'></div><div><small><a href="http://www.googlemapsgenerator.com/en/">googlemapsgenerator.com/en/</a></small></div><div><small><a href="https://ph.paylesser.com/takatack-voucher">takatack voucher</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(-16.3287354,-48.972190299999966),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-16.3287354,-48.972190299999966)});infowindow = new google.maps.InfoWindow({content:'<strong>Federacao de Karate Semi Contato</strong><br>Rua Luciano Carneiro 1,Anápolis,Goiás,Brazil<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+    <!-- End Google Map -->
+        <!--========== END PAGE CONTENT ==========-->
+
+
+
+{% endblock %}

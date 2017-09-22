@@ -1,0 +1,42 @@
+{% extends 'filiados/base.html' %}
+{% block head %}{% load staticfiles %}{% endblock %}
+{% block body %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="thumbnail">
+                <a href="{% url 'filiados:academias' %}">
+                    <img src='{% static "images/logo.jpg" %}' class="img-responsive">
+                </a>
+                <div class="caption">
+                    <h2><a href="{% url 'filiados:academias' %}">Academias Filiadas</a></h2>
+                    <h4>2017</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="thumbnail">
+                <a href="{% url 'filiados:atletas' %}">
+                    <img src='{% static "images/at2.jpg" %}' class="img-responsive">
+                </a>
+                <div class="caption">
+                    <h2><a href="{% url 'filiados:atletas' %}">Atletas Filiados</a></h2>
+                    <h4>2017</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="thumbnail">
+                <a href="{% url 'filiados:pretas' %}">
+                    <img src='{% static "images/preta.jpg" %}' class="img-responsive">
+                </a>
+                <div class="caption">
+                    <h2><a href="{% url 'filiados:pretas' %}">Faixas Pretas Registrados</a></h2>
+                    <h4>Desde 1996</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

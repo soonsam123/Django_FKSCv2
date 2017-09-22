@@ -1,0 +1,72 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}FKSC-GO{% endblock  %}</title>
+    <link rel="icon" type="image/png" href="{% static 'images/logo.png' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='{% static "css/estilo.css" %}'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+        <!-- header -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- brand -->
+            <a class="navbar-brand" href="{% url 'inicial:index' %}">FKSC-GO</a>
+        </div>
+
+        <!-- Items -->
+        <div class="collapse navbar-collapse" id="topNavBar">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="{% url 'inicial:index' %}">Página Inicial</a></li>
+                <li class="dropdown">
+                    <a href="{% url 'campeonatos:index' %}" class="dropdown-toggle" data-toggle="dropdown">Campeonatos <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{% url 'campeonatos:index' %}">Campeonatos 2017</a></li>
+                        <li><a href="{% url 'convocados:index' %}">Convocações</a></li>
+                    </ul>
+                </li>
+                <!-- Dropdown Menu-->
+                <li class="dropdown">
+                    <a href="{% url 'filiados:index' %}" class="dropdown-toggle" data-toggle="dropdown">Filiados <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{% url 'filiados:academias' %}">Academias</a> </li>
+                        <li><a href="{% url 'filiados:atletas' %}">Atletas</a> </li>
+                        <li><a href="{% url 'filiados:pretas' %}">Faixas Pretas</a> </li>
+                    </ul>
+                </li>
+                <li class=""><a href="{% url 'ranking:index' %}">Ranking</a></li>
+                <li class=""><a href="{% url 'videos:index' %}">Videos</a></li>
+                <li class=""><a href="#">Contato</a> </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+{% block body %}
+{% endblock %}
+
+<!-- Footer -->
+<div id="footer">
+    <p class="muted credit">Todos os direitos reservados<span class="glyphicon glyphicon-copyright-mark"></span>1996 - 2017 Federação de Karatê Semi
+        Contato do Estado de Goiás (FKSC-GO)</p>
+</div>
+
+</body>
+</html>
