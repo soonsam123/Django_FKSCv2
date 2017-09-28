@@ -1,0 +1,1 @@
+web: gunicorn FKSC_v2.wsgi --log-file -
