@@ -2,213 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="640bb64e-f8ca-43bd-89b2-3261e740bb06" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/dev-tools/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/dev-tools/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/dev-tools/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/css/global/global.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/css/theme/gold.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/css/theme/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/1920x1080/background1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/1920x1080/background2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/1920x1080/background3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/1920x1080/background7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/1920x1080/background8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/1920x1080/blackbelt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/1920x1080/copadapaz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/1920x1080/cpparaguay.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/1920x1080/dojo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/1920x1080/filie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/1920x1080/videoempi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/400x400/pretas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/450x215/cpceres1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/450x295/cpuruacu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/450x700/mdeliokanazawa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/450x700/tocha.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/500x750/cpbrasileiro.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/500x750/cpmorrinhos.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/970x970/brasileiro2017.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/970x970/delio.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/clients/cbksc1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/clients/mafwp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/clients/skif.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/clients/wpmaf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/clients/wtmf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/fksc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/leafsoon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/logofksc2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/logofkscsemfundo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/mockups/devices-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/mockups/iphone-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/mockups/iphone-03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/mockups/items-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/mockups/pencil-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/widgets/gmap/cd-icon-controller.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/widgets/gmap/cd-icon-location.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/widgets/gmap/cd-icon-location.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/widgets/gmap2/cd-icon-controller.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/widgets/gmap2/cd-icon-location.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/widgets/gmap2/cd-icon-location.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/img/widgets/worldmap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/include/media/fallback.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/include/media/mp4_video.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/include/media/webm_video.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/circles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/circles.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/counter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/counter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/equal-height.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/equal-height.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/faq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/faq.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/google-map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/google-map.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/google-map2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/google-map2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/header-sticky.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/header-sticky.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/magnific-popup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/magnific-popup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/masonry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/masonry.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/parallax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/parallax.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/portfolio-3-col.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/portfolio-3-col.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/portfolio-4-col-slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/portfolio-4-col-slider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/progress-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/progress-bar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/scrollbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/scrollbar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/swiper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/swiper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/tab.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/wow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/components/wow.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/js/global.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/base/_base.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/base/_selection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/components/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/components/_clients.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/components/_faq.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/components/_form-input.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/components/_icon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/global/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/global/global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/global/global/_global-colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/global/global/_global-helpers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/global/global/_global-responsive.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/global/global/_global-spacing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/global/global/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/gui/_mockup.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/gui/_plan.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/gui/_process.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/gui/_promo-block.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/gui/_scroll-to-section.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/gui/_team.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/gui/_video.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/layout/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/layout/_header-v2.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/layout/_header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_animation-delay.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_animation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_backface-visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_background.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_before-after.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_border-radius.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_breakpoints.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_child.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_container.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_cubic-transition.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_display-center.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_font.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_gradients.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_horizontal-center-align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_hover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_keyframes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_overlay.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_perspective.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_placeholder.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_position.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_rotate.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_selection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_size.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_stroke-dashoffset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_theme-icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_transform-origin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_transform-scale.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_transition.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/mixins/_translate3d.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/theme/_gold.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/theme/_red.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/theme/gold.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/theme/red.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/theme/theme/_gold.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/theme/theme/_red.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/vendors/_back-to-top.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/vendors/_cubeportfolio.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/vendors/_gmap.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/scss/vendors/_swiper.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/bootstrap/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/circles.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/counterup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/cubeportfolio/css/cubeportfolio.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/cubeportfolio/img/cbp-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/jquery.appear.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/jquery.back-to-top.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/jquery.equal-height.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/jquery.masonry.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/jquery.migrate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/jquery.parallax.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/jquery.smooth-scroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/jquery.wow.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/magnific-popup/jquery.magnific-popup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/magnific-popup/magnific-popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/masonry/imagesloaded.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/masonry/jquery.masonry.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/scrollbar/jquery.scrollbar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/scrollbar/mCSB_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/scrollbar/scrollbar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/swiper/swiper.jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/swiper/swiper.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/themify/fonts/themify.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/themify/fonts/themify.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/themify/fonts/themify.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/themify/fonts/themify.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/themify/themify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/vidbg.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/inicial/vendor/waypoint.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/campeonatos/templates/campeonatos/index.html" afterPath="$PROJECT_DIR$/campeonatos/templates/campeonatos/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convocados/templates/convocados/detail.html" afterPath="$PROJECT_DIR$/convocados/templates/convocados/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convocados/templates/convocados/index.html" afterPath="$PROJECT_DIR$/convocados/templates/convocados/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filiados/templates/filiados/academias.html" afterPath="$PROJECT_DIR$/filiados/templates/filiados/academias.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filiados/templates/filiados/atletas.html" afterPath="$PROJECT_DIR$/filiados/templates/filiados/atletas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filiados/templates/filiados/pretas.html" afterPath="$PROJECT_DIR$/filiados/templates/filiados/pretas.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inicial/templates/inicial/base.html" afterPath="$PROJECT_DIR$/inicial/templates/inicial/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inicial/templates/inicial/index.html" afterPath="$PROJECT_DIR$/inicial/templates/inicial/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ranking/templates/ranking/detail.html" afterPath="$PROJECT_DIR$/ranking/templates/ranking/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ranking/templates/ranking/index.html" afterPath="$PROJECT_DIR$/ranking/templates/ranking/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/videos/templates/videos/index.html" afterPath="$PROJECT_DIR$/videos/templates/videos/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -222,11 +17,9 @@
       <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ranking/templates/ranking/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="6944">
               <caret line="224" column="87" lean-forward="false" selection-start-line="224" selection-start-column="87" selection-end-line="224" selection-end-column="87" />
-              <folding>
-                <element signature="e#234#317#0#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -236,22 +29,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4464">
               <caret line="144" column="66" lean-forward="false" selection-start-line="144" selection-start-column="66" selection-end-line="144" selection-end-column="66" />
-              <folding>
-                <element signature="e#222#349#0#HTML" expanded="true" />
-                <element signature="e#1954#1972#0#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ranking/templates/ranking/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding>
-                <element signature="e#234#317#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="93">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inicial/templates/inicial/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -320,11 +118,11 @@
         <option value="$PROJECT_DIR$/filiados/templates/filiados/index.html" />
         <option value="$PROJECT_DIR$/filiados/templates/filiados/pretas.html" />
         <option value="$PROJECT_DIR$/convocados/templates/convocados/detail.html" />
-        <option value="$PROJECT_DIR$/inicial/templates/inicial/base.html" />
         <option value="$PROJECT_DIR$/inicial/templates/inicial/index.html" />
         <option value="$PROJECT_DIR$/ranking/templates/ranking/detail.html" />
         <option value="$PROJECT_DIR$/videos/templates/videos/index.html" />
         <option value="$PROJECT_DIR$/ranking/templates/ranking/index.html" />
+        <option value="$PROJECT_DIR$/inicial/templates/inicial/base.html" />
       </list>
     </option>
   </component>
@@ -362,6 +160,24 @@
             <path>
               <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
@@ -456,7 +272,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -476,6 +292,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -506,13 +343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inicial/static/css/style.css" />
     <entry file="file://$PROJECT_DIR$/inicial/static/inicial/vendor/bootstrap/css/bootstrap.min.css" />
-    <entry file="file://$PROJECT_DIR$/static/inicial/vendor/themify/themify.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="912" column="1" lean-forward="false" selection-start-line="912" selection-start-column="1" selection-end-line="912" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/inicial/vendor/themify/themify.css" />
     <entry file="file://$PROJECT_DIR$/campeonatos/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -604,7 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-186">
           <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,13 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/inicial/vendor/scrollbar/scrollbar.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="0" column="8615" lean-forward="false" selection-start-line="0" selection-start-column="8615" selection-end-line="0" selection-end-column="8615" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/inicial/vendor/scrollbar/scrollbar.min.css" />
     <entry file="file://$PROJECT_DIR$/FKSC_v2/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
@@ -775,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,14 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inicial/templates/inicial/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7037">
-          <caret line="227" column="68" lean-forward="false" selection-start-line="227" selection-start-column="68" selection-end-line="227" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inicial/templates/inicial/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13981">
@@ -825,11 +640,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ranking/templates/ranking/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="6944">
           <caret line="224" column="87" lean-forward="false" selection-start-line="224" selection-start-column="87" selection-end-line="224" selection-end-column="87" />
-          <folding>
-            <element signature="e#234#317#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,20 +650,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4464">
           <caret line="144" column="66" lean-forward="false" selection-start-line="144" selection-start-column="66" selection-end-line="144" selection-end-column="66" />
-          <folding>
-            <element signature="e#222#349#0#HTML" expanded="true" />
-            <element signature="e#1954#1972#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ranking/templates/ranking/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <element signature="e#234#317#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="93">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inicial/templates/inicial/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
