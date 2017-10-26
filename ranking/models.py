@@ -17,10 +17,10 @@ class Categoria(models.Model):
     modalidade = models.CharField(max_length=50)
     primeiro = models.CharField(max_length=200)
     acad_primeiro = models.CharField(max_length=200)
-    segundo = models.CharField(max_length=200)
-    acad_segundo = models.CharField(max_length=200)
-    terceiro = models.CharField(max_length=200)
-    acad_terceiro = models.CharField(max_length=200)
+    segundo = models.CharField(max_length=200,default='None')
+    acad_segundo = models.CharField(max_length=200,default='None')
+    terceiro = models.CharField(max_length=200,default='None')
+    acad_terceiro = models.CharField(max_length=200,default='None')
 
     def __str__(self):
         return self.idade +'/'+ self.faixa +'/'+ self.sexo +'/'+ self.modalidade
