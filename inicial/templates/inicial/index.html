@@ -448,9 +448,9 @@ mas no aperfeiçoamento do caráter de seus praticantes. "</i></p>
         <!-- End Feedback Form -->
 
     <!-- Google Map -->
-    <div id="map">
-        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:500px;width:1400px;'><div id='gmap_canvas' style='height:800px;width:1400px;'></div><div><small><a href="http://www.googlemapsgenerator.com/en/">googlemapsgenerator.com/en/</a></small></div><div><small><a href="https://ph.paylesser.com/takatack-voucher">takatack voucher</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(-16.3287354,-48.972190299999966),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-16.3287354,-48.972190299999966)});infowindow = new google.maps.InfoWindow({content:'<strong>Federacao de Karate Semi Contato</strong><br>Rua Luciano Carneiro 1,Anápolis,Goiás,Brazil<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-    </div>
+        <div class="map-responsive">
+            <iframe src="//www.google.com/maps/embed/v1/place?q=Harrods,Brompton%20Rd,%20UK&zoom=17&key=AIzaSyBLUEWnPL8ZSN1ROHIEnZDTgwLrQrd4Vl8" width="1600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
     <!-- End Google Map -->
         <!--========== END PAGE CONTENT ==========-->
 {% endblock %}

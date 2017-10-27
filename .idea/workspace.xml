@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="640bb64e-f8ca-43bd-89b2-3261e740bb06" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ranking/models.py" afterPath="$PROJECT_DIR$/ranking/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inicial/templates/inicial/index.html" afterPath="$PROJECT_DIR$/inicial/templates/inicial/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/inicial/HTML/css/style.css" afterPath="$PROJECT_DIR$/static/inicial/HTML/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +15,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ranking/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+            <state relative-caret-position="372">
+              <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inicial/templates/inicial/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="447" column="34" lean-forward="true" selection-start-line="447" selection-start-column="34" selection-end-line="447" selection-end-column="34" />
+              <folding>
+                <element signature="e#31352#31368#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/inicial/HTML/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="2380" column="1" lean-forward="true" selection-start-line="2380" selection-start-column="1" selection-end-line="2380" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FKSC_v2/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="134" column="21" lean-forward="false" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FKSC_v2/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="661">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#641#682#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inicial/templates/inicial/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7192">
+              <caret line="235" column="7" lean-forward="false" selection-start-line="235" selection-start-column="7" selection-end-line="235" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/inicial/HTML/vendor/bootstrap/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2244">
+              <caret line="4" column="6472" lean-forward="false" selection-start-line="4" selection-start-column="6469" selection-end-line="4" selection-end-column="6472" />
               <folding />
             </state>
           </provider>
@@ -58,11 +123,11 @@
       <find>logofksc</find>
       <find>js__scroll</find>
       <find>face</find>
-      <find>map</find>
       <find>youtube</find>
       <find>static</find>
       <find>url</find>
       <find>about</find>
+      <find>map</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,12 +153,13 @@
         <option value="$PROJECT_DIR$/filiados/templates/filiados/index.html" />
         <option value="$PROJECT_DIR$/filiados/templates/filiados/pretas.html" />
         <option value="$PROJECT_DIR$/convocados/templates/convocados/detail.html" />
-        <option value="$PROJECT_DIR$/inicial/templates/inicial/index.html" />
         <option value="$PROJECT_DIR$/ranking/templates/ranking/detail.html" />
         <option value="$PROJECT_DIR$/videos/templates/videos/index.html" />
-        <option value="$PROJECT_DIR$/inicial/templates/inicial/base.html" />
         <option value="$PROJECT_DIR$/ranking/templates/ranking/index.html" />
         <option value="$PROJECT_DIR$/ranking/models.py" />
+        <option value="$PROJECT_DIR$/inicial/templates/inicial/base.html" />
+        <option value="$PROJECT_DIR$/inicial/templates/inicial/index.html" />
+        <option value="$PROJECT_DIR$/static/inicial/HTML/css/style.css" />
       </list>
     </option>
   </component>
@@ -134,6 +200,29 @@
             <path>
               <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="FKSC_v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
               <item name="ranking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -148,12 +237,64 @@
               <item name="ranking" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="ranking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_FKSCv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_FKSCv2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="inicial" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -165,11 +306,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FKSC_v2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
@@ -225,7 +367,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -245,6 +387,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -257,18 +420,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/inicial/static/package.json" />
-    <entry file="file://$PROJECT_DIR$/inicial/static/vendor/bootstrap/css/bootstrap.min.css" />
     <entry file="file://$PROJECT_DIR$/inicial/dev-tools/gulpfile.js" />
     <entry file="file://$PROJECT_DIR$/inicial/dev-tools/package.json" />
     <entry file="file://$PROJECT_DIR$/inicial/dev-tools/index.js" />
-    <entry file="file://$PROJECT_DIR$/FKSC_v2/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inicial/static/css/style.css" />
     <entry file="file://$PROJECT_DIR$/inicial/static/inicial/vendor/bootstrap/css/bootstrap.min.css" />
     <entry file="file://$PROJECT_DIR$/static/inicial/vendor/themify/themify.css" />
@@ -436,13 +590,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/inicial/vendor/scrollbar/scrollbar.min.css" />
-    <entry file="file://$PROJECT_DIR$/FKSC_v2/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filiados/templates/filiados/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1085">
@@ -506,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inicial/templates/inicial/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5518">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videos/templates/videos/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
@@ -535,18 +675,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inicial/templates/inicial/index.html">
+    <entry file="file://$PROJECT_DIR$/ranking/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="451" column="91" lean-forward="false" selection-start-line="451" selection-start-column="91" selection-end-line="451" selection-end-column="91" />
+        <state relative-caret-position="372">
+          <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ranking/models.py">
+    <entry file="file://$PROJECT_DIR$/static/inicial/HTML/vendor/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        <state relative-caret-position="-2244">
+          <caret line="4" column="6472" lean-forward="false" selection-start-line="4" selection-start-column="6469" selection-end-line="4" selection-end-column="6472" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FKSC_v2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="134" column="21" lean-forward="false" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inicial/templates/inicial/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7192">
+          <caret line="235" column="7" lean-forward="false" selection-start-line="235" selection-start-column="7" selection-end-line="235" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FKSC_v2/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#641#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inicial/templates/inicial/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="447" column="34" lean-forward="true" selection-start-line="447" selection-start-column="34" selection-end-line="447" selection-end-column="34" />
+          <folding>
+            <element signature="e#31352#31368#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/inicial/HTML/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="2380" column="1" lean-forward="true" selection-start-line="2380" selection-start-column="1" selection-end-line="2380" selection-end-column="1" />
           <folding />
         </state>
       </provider>
